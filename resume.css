@@ -26,52 +26,50 @@ h2{
 /* header */
 .header{
   background: url('./assets/img-headerShape.png') no-repeat;
-  position: relative;
+  display: flex;
   width: 100%;
-  height: 400px;
+  margin-bottom: 130px;
+  padding-top: 125px;
 }
 
 .personal{
-  position: absolute;
-  top: 125px;
-  left: 135px;
+  padding-left: 135px;
+  margin-right: 136px;
   text-align: center;
 }
 .personal h1 {
   font-size: 42px;
   line-height: 56px;
   color: #000;
+  margin-top: 11px;
+  margin-bottom: 1px;
 }
 .personal p{
   font-size: 14px;
   color: #4A4A4A;
   line-height: 19px;
+  margin-top: 8px;
 }
 .info{
-  position: absolute;
-  top: 125px;
-  left: 422px;
+  padding-right: 326px;
 }
 .info-icon{
-  width: 42px;
   height: 42px;
   display: flex;
-  justify-content: center;
   align-items: center;
   margin-right: 12px;
+  margin-bottom: 12px;
 }
-.info a{
+.info-icon a{
+  margin-left: 12px;
   display: flex;
   font-size: 18px;
-  margin-bottom: 12px;
-  align-items: center;
-}
-.info li{
   color: #fff;
 }
-.info li:hover{
+.info-icon a:hover{
   color: #000;
 }
+
 
 /* Skill */
 .skill-box{
